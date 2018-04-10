@@ -4,29 +4,50 @@ body {
   background-color: white;
 }
 
-#header {
-  font-family: Avenir; 
+#header h1 h3{
+  font-family: Baskerville;
   color: white;
-  font-style: bold;
+}
+
+#header {
+  color: white;
+  font-style: normal;
+  font-weight: lighter;
   text-align: center;
 }
 
-#header h1 h2 p{
+#header h4 p{
+  font-family: Avenir; 
   color: white;
 }
 
 #header {
   background-image: url('http://blog.splendia.com/wp-content/uploads/2015/01/Meilleur-bar-bi%C3%A8re-Bruxelles.jpg');
-  padding: 150px;
+  padding: 100px;
+}
+
+#hop {
+  width: 5%;
 }
 
 #prixducafe {
-  width: 60%;
+  width: 150px;
+  height: 80px;
+}
+
+#grim {
+  width: 150px;
+  height: 80px;
+}
+
+#etalage {
+  width: 150px;
+  height: 80px;
 }
 
 .column {
     float: left;
-    width: 50%;
+    width: 33.33%;
 }
 
 .row:after {
