@@ -1,0 +1,13 @@
+body {
+  font-family: Avenir;
+}
+
+#header {
+  text-align: center;
+  background-image: url('http://blog.splendia.com/wp-content/uploads/2015/01/Meilleur-bar-bi%C3%A8re-Bruxelles.jpg');
+  padding: 150px;
+}
+
+.card img{
+  display: inline-block;
+}
