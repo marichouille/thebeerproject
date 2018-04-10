@@ -1,13 +1,36 @@
 body {
   font-family: Avenir;
+  text-align: center;
+  background-color: white;
 }
 
 #header {
+  font-family: Avenir; 
+  color: white;
+  font-style: bold;
   text-align: center;
+}
+
+#header h1 h2 p{
+  color: white;
+}
+
+#header {
   background-image: url('http://blog.splendia.com/wp-content/uploads/2015/01/Meilleur-bar-bi%C3%A8re-Bruxelles.jpg');
   padding: 150px;
 }
 
-.card img{
-  display: inline-block;
+#prixducafe {
+  width: 60%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
