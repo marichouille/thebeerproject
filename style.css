@@ -4,7 +4,7 @@ body {
   background-color: white;
 }
 
-#header h1 h3{
+#header h1, h3{
   font-family: Baskerville;
   color: white;
 }
@@ -16,9 +16,8 @@ body {
   text-align: center;
 }
 
-#header h4 p{
+#header h4, p{
   font-family: Avenir; 
-  color: white;
 }
 
 #header {
